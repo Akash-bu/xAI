@@ -1,0 +1,13 @@
+prefix=D:/xAI/Random_forest_classifer/venv/Library
+exec_prefix=D:/xAI/Random_forest_classifer/venv/Library
+libdir=D:/xAI/Random_forest_classifer/venv/Library/lib
+sharedlibdir=D:/xAI/Random_forest_classifer/venv/Library/lib
+includedir=D:/xAI/Random_forest_classifer/venv/Library/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
